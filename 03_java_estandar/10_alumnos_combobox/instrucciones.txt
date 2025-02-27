@@ -1,0 +1,11 @@
+
+1.- Aparece una ventana, con:
+	- Lista de cursos (sin repetidos), en la que pondrá "Seleccione curso"
+	- Al pulsar un botón, llamado "Total alumnos", aparece un alert con en mensaje del total
+	de ese curso en concreo.
+	
+	
+Primero el MÉTODO
+Luego el ADAPTADOR
+Finalmente el FRONT
+	
