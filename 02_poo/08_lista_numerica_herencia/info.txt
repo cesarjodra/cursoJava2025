@@ -1,0 +1,10 @@
+Crear una clase llamada ListNumber que será una colección tipo lista de números enteros.
+La clase tendrá los mismos métodos de ArrayList y, por tanto, será una subclase de ésta.
+
+Además, tendrá las siguientes características:
+
+-No admitirá números repetidos. Si se intenta añadir un número que ya existe, no se añadirá.
+
+-Incluirá dos métodos nuevos:
+	* int sum(). Devuelve la suma de todos los números almacenados
+	* double average(). devuelve la media de todos los números almacenados
