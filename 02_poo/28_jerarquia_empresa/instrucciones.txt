@@ -1,0 +1,26 @@
+Clase Empleado. Tendrá los siguientes atributos:
+-nombre, edad,fechaIngreso y salario
+Incluye también una constante llamada BONO con un valor cualquiera
+Además tendrá el método void incentivar(), que deberá ser implementado por las subclases
+
+------------------------------
+
+Clase Operario
+Es una subclase de Empleado, que incluirá un atributo llamado nivel (int)
+Sobrescribe el método incentivar siguiendo el siguiente algoritmo:
+si la edad del empleado es superior a 30 y su nivel es superior a 2, su salario se 
+incrementará en dos veces el bono
+si solo cumple una de la condiciones anteriores, su salario se incrementará en el valor del bono
+
+Además añadirá el método actualizar nivel: si el nivel es inferior a 5 y el empleado
+lleva más de dos años en la empresa, se le subirá un nivel   
+
+------------------------------
+
+Clase Director
+Es una subclase de Empleado, que incluirá dos atributos:
+departamento y personalCargo (int)
+Sobrescribe el método incentivar siguiendo el siguiente criterio:
+Si lleva tres o más años en la empresa y tiene más de 10 personas a su cargo, su salario se 
+incrementará en dos veces el bono
+si solo cumple una de la condiciones anteriores, su salario se incrementará en el valor del bono
