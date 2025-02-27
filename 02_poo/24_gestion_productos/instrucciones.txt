@@ -1,0 +1,11 @@
+Implementar la lógica de negocio de una aplicación para gestión de productos.
+Cada producto se define por: nombre,precio y categoria
+Los métodos de esa capa de negocio serán:
+
+-alta de producto: recibe un producto y lo da de alta
+-bajar precio: recibe un porcentaje y baja el precio de todos los productos en dicho porcentaje
+-subir precio categoria: recibe un porcentaje y una categoría y sube el precio en dicho porcentaje
+a los productos de esa categoria
+-eliminar por categoria: recibe una categoría y elimina todos los productos de esa categoría
+-obtener productos: devuelve una lista con los productos exitentes
+-ordenar por precio: ordena la lista de productos de menor a mayor precio 
